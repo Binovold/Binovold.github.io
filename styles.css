@@ -69,7 +69,7 @@ h1 {
 
     position: relative;
     width: clamp(320px, 50vw, 700px);
-    height: clamp(150px, 20vw, 350px);
+    height: clamp(150px, 20vh, 350px);
     background-color: #393E46;
     border-radius: 10%;
 
@@ -79,7 +79,7 @@ h1 {
 
 #players {
     padding: 5%;
-    width: clamp(100px, 47%, 300px);
+    width: clamp(100px, 100%, 300px);
     height: clamp(50px, 65%, 100px);
 
     display: flex;
@@ -108,8 +108,9 @@ h3 {
     border: none;
     color: white;
     font-weight: bold;
-
     font-size: 1.5rem;
+
+    touch-action: manipulation;
 }
 
 #players h2 {
